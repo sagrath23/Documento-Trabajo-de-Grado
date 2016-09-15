@@ -1,0 +1,570 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\usepackage{lscape}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "PORTADA2.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "reconocimientos.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "capitulo1.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "capitulo2.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "capitulo3.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "capitulo4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Jorgen Nixdorf, Constraint Programming, http://en.wikipedia.org/wiki/Constraint_pr
+ogramming.
+ 2003
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+Charlotte Truchet, OMClouds, a constraint solver for musical constraints,
+ Metaheuristics International Conference (2003), págs.1--5
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+Marc Battier, Open Music RC Library Versión 1.1, Segunda Edición Marzo 2000
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+Guido Tack, Presentación GECODE Open-Source Software for Integer and Contraint
+ Programming (OSSICP'08) Workshop, 2008
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+Abraham Jurafsky, Manual de Armonia 10ma Edición, Editorial Ricordi
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+
+\lang english
+http://es.wikipedia.org/wiki/Armon%C3%ADa
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+http://es.wikipedia.org/wiki/Contrapunto
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+http://ktiml.mff.cuni.cz/~bartak/constraints/intro.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+Luis Quesada, Solving Constrained Graph Problems using Reachability Constraints
+ based on Transitive Closure and Dominators, 2006.Tesis(Doctorado en Ciencias
+ Aplicadas).Université catholique de Louvain.
+ http://edoc.bib.ucl.ac.be:81/ETD-db/collection/available/BelnUcetd-11272006-164211/
+unrestricted/thesis.pdf 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+Equipo de Gecode,Benchmark de Gecode con respecto a otras alternativas Similares.
+ http://www.gecode.org/benchmarks.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+
+\end_inset
+
+Sven Lämmermann,Christian Schulte,Thomas Sjöland.Constraints.
+ Royal Institute of Technology Stockholm, Sweden.
+ http://web.it.kth.se/~cschulte/talks/Constraints@KTH.pdf
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+Cambios de Gecode 2.0.0 con respecto a Gecode 1.3.1 http://www.gecode.org/gecode-doc-l
+atest/PageChanges_2_0_0.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-13"
+
+\end_inset
+
+Equipo de Gecode,Sitio Web Oficial de Gecode.
+ http://www.gecode.org
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-14"
+
+\end_inset
+
+http://en.wikipedia.org/wiki/Kneser_graph
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-15"
+
+\end_inset
+
+Tack G,Constraint Propagation -Models , Techniques , Implementation Saarland
+ University , Germany ,2009
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+CP(Graph): Introducing a Graph Computation Domain in Constraint Programming
+ ,Gregoire Dooms, Yves Deville, Pierre Dupont,Department of Computing Science
+ and Engineering Université́ catholique de Louvain
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-17"
+
+\end_inset
+
+Gecode, An Open Constraint Solving Library,Guido Tack, Workshop on Open-Source
+ Software for Integer and Constraint Programming (OSSICP)
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-18"
+
+\end_inset
+
+Charlotte Truchet, Contraintes, Rechearche Locale et Composition Assitée
+ par Ordinateur, Tesis de Doctorado, Universidad de Paris 7
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-19"
+
+\end_inset
+
+Prob007 de CSPLib, http://www.cs.st-andrews.ac.uk/~ianm/CSPLib/prob/prob007/spec.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-20"
+
+\end_inset
+
+Robert Morris y Daniel Starr, The Structure of All-Interval Series, Journal
+ of Music Theory Vol.
+ 18, No.
+ 2 (Autumn, 1974), pp.
+ 364-389
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-21"
+
+\end_inset
+
+Charlotte Truchet, Some Constraint Satisfaction Problems in Computer Assisted
+ Composition and Analysis, Perspectives in Mathematical and Computational
+ Music Theory, 2004
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-22"
+
+\end_inset
+
+CP(Graph) Version No Oficial - http://www.cs.brown.edu/~gdooms/Software.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-23"
+
+\end_inset
+
+Gecodes ChangeLog - http://www.gecode.org/changes.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-24"
+
+\end_inset
+
+Gecode's Architecture, Raphael Reischuk,Graduate Seminar PS Lab,Marzo, 2008,http
+://www.ps.uni-sb.de/~raphael/bachelor/downloads/talk2-80313.pdf
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-25"
+
+\end_inset
+
+http://foldoc.org/
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-26"
+
+\end_inset
+
+Didier Croes, http://www.bigre.ulb.ac.be/Users/didier/pathfinding/images/badconnecti
+on.png
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-27"
+
+\end_inset
+
+http://www.epos.uni-osnabrueck.de/music/templates/buch.php?id=48&page=/music/books/m
+/ma_nl004/pages/245.htm
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-28"
+
+\end_inset
+
+http://www.epos.uni-osnabrueck.de/music/templates/buch.php?id=48&page=/music/books/m
+/ma_nl004/pages/194.htm
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-29"
+
+\end_inset
+
+http://www.cs.st-andrews.ac.uk/~ianm/CSPLib/prob/prob006/spec.html
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-30"
+
+\end_inset
+
+Ian Gent, Conditional Simmetry in All Interval Series Problem, University
+ of St Andrew, 2003
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-31"
+
+\end_inset
+
+Gregoire Dooms.The CP(Graph) Computation Domain in Constraint Programming
+ 2005-2006.
+ Tesis(Doctorado en Ciencias Aplicadas).
+ Université catholique de Louvain.
+ www.info.ucl.ac.be/~dooms/thesis.pdf
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-32"
+
+\end_inset
+
+F.
+ Rossi, P.Van Beek, T.Walsh.
+ Handbook of constraint programming.
+ Elsevier, 2006.
+ ISBN 978-0-444-52726-4
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-33"
+
+\end_inset
+
+http://www.epos.uni-osnabrueck.de/music/templates/buch.php?id=48&page=/music/books/m
+/ma_nl004/pages/245.htm
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-34"
+
+\end_inset
+
+Torsten Andersen,Composing Music by Composing Rules: Design and Usage of
+ a Generic Music Constraint System, Tesis de Doctorado, Queen’s University,
+ 2007
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-35"
+
+\end_inset
+
+Johan Joseph Fux (1965, orig.
+ 1725).
+ The Study of Counterpoint.
+ from Johann Joseph Fux’s Gradus ad Parnassum.
+ W.W.
+ Norton & Company.
+ traducido y editado por Alfred Mann
+\end_layout
+
+\end_body
+\end_document

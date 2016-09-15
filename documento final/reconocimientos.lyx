@@ -1,0 +1,143 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\use_default_options false
+\language spanish
+\inputencoding auto
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics emtex
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\lang spanish
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+En la música todos los sentimientos vuelven a su estado puro y el mundo
+ no es sino música hecha realidad.
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ - Arthur Schopenhauer.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\shape italic
+La música es la aritmética de los sonidos, como la óptica es la geometría
+ de la luz.
+\shape default
+
+\begin_inset Quotes erd
+\end_inset
+
+ - Claude Debussy.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Quiero dar las gracias entre muchas personas a las siguientes:
+\end_layout
+
+\begin_layout Itemize
+A mis padres, que a pesar de no estar presentes fisicamente durante mi proceso
+ de formación profesional, siempre fueron el motor que me impulso a seguir
+ adelante a pesar de las adversidades.
+ 
+\end_layout
+
+\begin_layout Itemize
+A mi director, maestro, pero ante todo amigo, el Ingeniero David Alejandro
+ Przybilla,  quien desinteresadamente me guió durante el desarrollo del
+ proyecto.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A mis  profesores de Univalle Tulua y Cali como Albeiro Aponte, Victor Manuel
+ Vargas y Juan Francisco Díaz quienes ayudaron a mejorar este trabajo colaborand
+ome con sus consejos sobre distintos aspectos como investigación y presentación
+ del informe de Trabajo de Grado.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+A mis compañeros y amigos con quienes he compartido alegrias y tristezas
+ durante estos 5 años de formación profesional.
+\end_layout
+
+\end_body
+\end_document
