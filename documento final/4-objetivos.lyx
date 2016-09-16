@@ -3,9 +3,12 @@
 \begin_document
 \begin_header
 \textclass book
+\begin_preamble
+\setcounter{section}{1}
+\end_preamble
 \use_default_options false
 \maintain_unincluded_children false
-\language english
+\language spanish
 \language_package default
 \inputencoding auto
 \fontencoding global
@@ -28,12 +31,12 @@
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
 \use_package esint 1
-\use_package mathdots 0
+\use_package mathdots 1
 \use_package mathtools 1
 \use_package mhchem 1
 \use_package stackrel 1
@@ -48,17 +51,21 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\index Index
+\index Índice
 \shortcut idx
 \color #008000
 \end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
 \papercolumns 1
-\papersides 1
+\papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
@@ -70,52 +77,47 @@
 \begin_body
 
 \begin_layout Standard
-\align center
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\lang spanish
-Integración del modelo de estimación de esfuerzo requerido para la construcción
- de componentes de software propuesto por PSP/TSP en la metodología ágil
- de desarrollo de software SCRUM
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\series bold
-\lang spanish
-Autor:
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang spanish
-Steven Augusto Villegas Castellanos
-\begin_inset Foot
+\begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-
-\lang spanish
-sagrath23@gmail.com
+estado del arte
 \end_layout
 
 \begin_layout Plain Layout
+.Que es gecode 
+\end_layout
 
-\lang spanish
-steven.villegas00@usc.edu.co
+\begin_layout Plain Layout
+-para que sirve gecode.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+.Que es cpgraph 
+\end_layout
+
+\begin_layout Plain Layout
+.utilidad cpgraph.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+dominio de computacion de cpgraph- 
+\end_layout
+
+\begin_layout Plain Layout
+restriccion del nucleo de cpgraph.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+restricciones globales de cpgraph.
+ e
+\end_layout
+
+\begin_layout Plain Layout
+xpresividad de cpgraph
 \end_layout
 
 \end_inset
@@ -123,99 +125,13 @@ steven.villegas00@usc.edu.co
 
 \end_layout
 
-\begin_layout Standard
-\align center
-
-\series bold
-\lang spanish
-Director:
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang spanish
-Ingeniero de Sistemas 
-\begin_inset Newline newline
-\end_inset
-
-
-\series bold
-\color white
-%
-\begin_inset Newline newline
-\end_inset
-
-%
-\begin_inset Newline newline
-\end_inset
-
-%
-\begin_inset Newline newline
-\end_inset
-
-%
-\begin_inset Newline newline
-\end_inset
-
-%
-\begin_inset Newline newline
-\end_inset
-
-%
-\begin_inset Newline newline
-\end_inset
-
-%
-\begin_inset Newline newline
-\end_inset
-
-
-\series default
-\color inherit
-
-\begin_inset Graphics
-	filename graphics/logo-usc.png
-	scale 50
-
-\end_inset
-
-
+\begin_layout Chapter
+Objetivos
 \end_layout
 
 \begin_layout Standard
-\align center
-
-\lang spanish
-Universidad Santiago de Cali
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang spanish
-Facultad de Ingeniería
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang spanish
-Programa académico de Ingeniería de Sistemas
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang spanish
-Santiago de Cali
-\end_layout
-
-\begin_layout Standard
-\align center
-
-\lang spanish
-2016
+En este capítulo se describe el objetivo principal y los objetivos especificos
+ que busca alcanzar el desarrollo de este trabajo de grado.
 \end_layout
 
 \end_body
