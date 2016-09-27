@@ -139,11 +139,25 @@ Planteamiento
 \end_layout
 
 \begin_layout Standard
-Integrando el método de estimación basado en substitutos de PSP, como una
- herramienta en la toma de decisiones durante la definición de tiempos requerido
-s para desarrollar un hito durante un sprint de SCRUM, es posible realizar
- estimaciones más acertadas de esfuerzo, tiempo y tamaño de componentes
- requeridos para entregar un producto de software al cliente.
+A partir de la descripción del problema suministrada en el capítulo anterior,
+ se plantean las siguientes inquietudes con respecto a la problemática de
+ la estimación de esfuerzos para la construcción de productos de software:
+\end_layout
+
+\begin_layout Standard
+¿Puede un modelo de estimación como el planteado por PSP para realizar labores
+ a nivel individual ser integrado a una metodología agil como SCRUM?
+\end_layout
+
+\begin_layout Standard
+¿Es posible integrar un modelo de estimación formal en una metodología agil
+ como SCRUM sin entrar en contravención con la filosofía agil que plantean?
+\end_layout
+
+\begin_layout Standard
+¿La combinación de estimaciones individuales combiandas en TSP, pueden reducir
+ la incertidumbre y el margen de error en la estimación de esfuerzos para
+ construir piezas de software de calida?
 \end_layout
 
 \end_body
