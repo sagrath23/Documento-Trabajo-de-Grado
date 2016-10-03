@@ -93,7 +93,19 @@ Desde el nacimiento de la industria del software, y desde el surgimiento
  definir con precisión el tamaño de las piezas de software que se deben
  desarrollar para un sistema, y el tiempo que conlleva el desarrollo de
  estos componentes para entregar un producto final al cliente.
- Sin embargo, al ser el desarrollo de software una labor meramente artesanal,
+ 
+\end_layout
+
+\begin_layout Standard
+Durante la crisis del software, que se extendió desde mediados de los años
+ 60 a mediados de los años 80, el común denominador de los proyectos de
+ software era la poca calidad del producto, el sobrecosto generado por el
+ desfase considerable de los proyectos de software con respecto a los esfuerzos
+ y tiempos planeados.
+\end_layout
+
+\begin_layout Standard
+Sin embargo, al ser el desarrollo de software una labor meramente artesanal,
  guiada por la lógica y el razonamiento de cada individuo al momento de
  plantear una solución, estructurarla y plasmarla en una pieza de código
  en un lenguaje de programación en particular, se hace notoria la dificultad
