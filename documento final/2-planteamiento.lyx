@@ -126,7 +126,7 @@ xpresividad de cpgraph
 \end_layout
 
 \begin_layout Chapter
-Planteamiento del problema
+Planteamiento
 \end_layout
 
 \begin_layout Standard
@@ -135,29 +135,42 @@ El objetivo de este capítulo es brindar el conocimiento necesario para delimita
 \end_layout
 
 \begin_layout Section
-Planteamiento
+Planteamiento del problema
 \end_layout
 
 \begin_layout Standard
-A partir de la descripción del problema suministrada en el capítulo anterior,
- se plantean las siguientes inquietudes con respecto a la problemática de
- la estimación de esfuerzos para la construcción de productos de software:
+En el capitulo anterior, se esboza la necesidad de involucrar algún tipo
+ de modelo de estimación basado en datos para productos de software, que
+ permita la inclusión de las características inherentes de cada miembro
+ del equipo de desarrollo en el proceso de estimación de esfuerzos, con
+ el fin de lograr una proyección más fidedigna del tiempo requerido y el
+ esfuerzo invertido con los miembros que conforman el equipo de desarrollo.
 \end_layout
 
 \begin_layout Standard
-¿Puede un modelo de estimación como el planteado por PSP para realizar labores
- a nivel individual ser integrado a una metodología agil como SCRUM?
+Con esto en mente, resulta natural pensar en involucrar estas métricas en
+ una metodología de desarrollo ágil, en las cuales los procesos se gestionan
+ de una forma liviana, adaptandose perfectamente a la naturaleza 
+\begin_inset Quotes eld
+\end_inset
+
+Artesanal
+\begin_inset Quotes erd
+\end_inset
+
+ de la producción de componentes de software.
 \end_layout
 
 \begin_layout Standard
-¿Es posible integrar un modelo de estimación formal en una metodología agil
- como SCRUM sin entrar en contravención con la filosofía agil que plantean?
+A partir de este par de premisas, se plantea la situación problemática que
+ se busca resolver con el desarrollo de este trabajo de grado: 
 \end_layout
 
 \begin_layout Standard
-¿La combinación de estimaciones individuales combiandas en TSP, pueden reducir
- la incertidumbre y el margen de error en la estimación de esfuerzos para
- construir piezas de software de calida?
+¿Es posible integrar los pasos necesarios para la recolección de datos que
+ requiere un modelo de estimación como el planteado por PSP en una metodología
+ de desarrollo ágil como SCRUM, sin entrar en contravención con el principio
+ de agilidad que esta metodología ofrece?
 \end_layout
 
 \end_body
