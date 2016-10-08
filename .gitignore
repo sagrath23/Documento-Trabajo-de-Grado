@@ -1,3 +1,7 @@
 *.lyx~
 *.lyx#
+<<<<<<< HEAD
 *.bib.bak
+=======
+documentos
+>>>>>>> master
