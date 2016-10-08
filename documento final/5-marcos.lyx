@@ -42,8 +42,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -76,10 +76,6 @@
 
 \begin_body
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Chapter
 Marco Teórico y Estado del arte
 \end_layout
@@ -91,45 +87,27 @@ En este capitulo se describe el marco teórico referente al entorno del problema
 \end_layout
 
 \begin_layout Section
-
-\lang spanish
 Marco teórico
 \end_layout
 
 \begin_layout Subsection
-
-\lang spanish
 SCRUM
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
-SCRUM es presentado por sus creadores 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Schwaber1997"
-
-\end_inset
-
- como un proceso de gestión y control que elimina la complejidad y se centra
- en la construcción de productos de software que suplan las necesidades
- del negocio para el que fueron creados.
- Por si mismo, SCRUM es un marco de referencia para la colaboración efectiva
+SCRUM es presentado por sus creadores como un proceso de gestión y control
+ que elimina la complejidad de las tareas de gestión de personal y recursos
+ y se centra en la construcción de productos de software qye suplan las
+ necesidades del negocio para el que se crearon.
+ Por si solo, SCRUM es un marco de referencia para la colaboración efectiva
  del equipo de trabajo en proyectos complejos.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 SCRUM ofrece un marco de trabajo que caracteriza las actividades de gestión
- que se deben realizar para controlar el desarrollo de las piezas de software
- necesarias para entregar un producto de software, tal como se muestra en
- la figura 5.1.
+ que se deben realizar para controlar el desarrollode las piezas de software
+ necesarias para entregar un producto de software.
+ Este marco se ilustra en la figura 5.1: 
 \end_layout
 
 \begin_layout Standard
@@ -141,7 +119,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename graphics/scrum-framework.jpeg
-	width 85page%
+	scale 80
 
 \end_inset
 
@@ -157,6 +135,10 @@ Marco de trabajo de SCRUM
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -209,10 +191,6 @@ Roles, Artefactos, Eventos y Reglas de SCRUM
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -251,9 +229,11 @@ Framework Nexus
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
+PSP/TSP
+\end_layout
 
-\lang spanish
+\begin_layout Section
 Estado del arte
 \end_layout
 
