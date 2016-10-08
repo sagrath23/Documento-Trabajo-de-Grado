@@ -12,12 +12,26 @@
   Timestamp                = {2016.10.02}
 }
 
-@Article{,
-  Title                    = {Essentials of Software Engineering},
-  Author                   = {Essentials of Software Engineering},
+@InBook{Schwaber1997,
+  Title                    = {SCRUM Development Process},
+  Author                   = {Schwaber, Ken},
+  Editor                   = {Sutherland, Jeff
+and Casanave, Cory
+and Miller, Joaquin
+and Patel, Philip
+and Hollowell, Glenn},
+  Pages                    = {117--134},
+  Publisher                = {Springer London},
+  Year                     = {1997},
 
+  Address                  = {London},
+
+  Booktitle                = {Business Object Design and Implementation: OOPSLA '95 Workshop Proceedings 16 October 1995, Austin, Texas},
+  Doi                      = {10.1007/978-1-4471-0947-1_11},
+  ISBN                     = {978-1-4471-0947-1},
   Owner                    = {sagrath23},
-  Timestamp                = {2016.10.02}
+  Timestamp                = {2016.10.05},
+  Url                      = {http://dx.doi.org/10.1007/978-1-4471-0947-1_11}
 }
 
 @comment{jabref-meta: databaseType:bibtex;}
