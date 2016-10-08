@@ -8,8 +8,8 @@
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
-\language spanish
-\language_package default
+\language american
+\language_package auto
 \inputencoding auto
 \fontencoding global
 \font_roman lmodern
@@ -77,51 +77,6 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-estado del arte
-\end_layout
-
-\begin_layout Plain Layout
-.Que es gecode 
-\end_layout
-
-\begin_layout Plain Layout
--para que sirve gecode.
- 
-\end_layout
-
-\begin_layout Plain Layout
-.Que es cpgraph 
-\end_layout
-
-\begin_layout Plain Layout
-.utilidad cpgraph.
- 
-\end_layout
-
-\begin_layout Plain Layout
-dominio de computacion de cpgraph- 
-\end_layout
-
-\begin_layout Plain Layout
-restriccion del nucleo de cpgraph.
- 
-\end_layout
-
-\begin_layout Plain Layout
-restricciones globales de cpgraph.
- e
-\end_layout
-
-\begin_layout Plain Layout
-xpresividad de cpgraph
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -130,9 +85,176 @@ Marco Teórico y Estado del arte
 \end_layout
 
 \begin_layout Standard
-Eneste capitulo se describe el marco teórico referente al entorno del problema
+En este capitulo se describe el marco teórico referente al entorno del problema
  que se busca solucionar durante el desarrollo de este trabajo, y el estado
  del arte de trabajos de investigación similares realizados a nivel mundial.
+\end_layout
+
+\begin_layout Section
+
+\lang spanish
+Marco teórico
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish
+SCRUM
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+SCRUM es presentado por sus creadores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Schwaber1997"
+
+\end_inset
+
+ como un proceso de gestión y control que elimina la complejidad y se centra
+ en la construcción de productos de software que suplan las necesidades
+ del negocio para el que fueron creados.
+ Por si mismo, SCRUM es un marco de referencia para la colaboración efectiva
+ del equipo de trabajo en proyectos complejos.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+SCRUM ofrece un marco de trabajo que caracteriza las actividades de gestión
+ que se deben realizar para controlar el desarrollo de las piezas de software
+ necesarias para entregar un producto de software, tal como se muestra en
+ la figura 5.1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/scrum-framework.jpeg
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Marco de trabajo de SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Scrum permite la creación de equipos auto organizados impulsando la co-localizac
+ión de todos los miembros del equipo, y la comunicación verbal entre todos
+ los miembros y disciplinas involucrados en el proyecto.
+\end_layout
+
+\begin_layout Standard
+Un principio clave de Scrum es el reconocimiento de que durante un proyecto
+ los clientes pueden cambiar de idea sobre lo que quieren y necesitan (a
+ menudo llamado requirements churn), y que los desafíos impredecibles no
+ pueden ser fácilmente enfrentados de una forma predictiva y planificada.
+ Por lo tanto, Scrum adopta una aproximación pragmática, aceptando que el
+ problema no puede ser completamente entendido o definido, y centrándose
+ en maximizar la capacidad del equipo de entregar rápidamente y responder
+ a requisitos emergentes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/Ficha_scrum.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Roles, Artefactos, Eventos y Reglas de SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/nexus_framework.jpeg
+	width 85page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Framework Nexus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang spanish
+Estado del arte
 \end_layout
 
 \end_body

@@ -76,55 +76,6 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-estado del arte
-\end_layout
-
-\begin_layout Plain Layout
-.Que es gecode 
-\end_layout
-
-\begin_layout Plain Layout
--para que sirve gecode.
- 
-\end_layout
-
-\begin_layout Plain Layout
-.Que es cpgraph 
-\end_layout
-
-\begin_layout Plain Layout
-.utilidad cpgraph.
- 
-\end_layout
-
-\begin_layout Plain Layout
-dominio de computacion de cpgraph- 
-\end_layout
-
-\begin_layout Plain Layout
-restriccion del nucleo de cpgraph.
- 
-\end_layout
-
-\begin_layout Plain Layout
-restricciones globales de cpgraph.
- e
-\end_layout
-
-\begin_layout Plain Layout
-xpresividad de cpgraph
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Chapter
 Justificación
 \end_layout
@@ -135,11 +86,27 @@ El objetivo de este capítulo es suministrar una serie de criterios que le
  solución al problema planteado en el capítulo anterior.
 \end_layout
 
+\begin_layout Section
+Justificación del trabajo
+\end_layout
+
 \begin_layout Standard
-Mejores estimaciones, mejoran la credibilidad ante el cliente, se hace un
- uso racional de recursos, etc.
- etc.
- etc.
+La inclusión de un método de estimación de esfuerzos basado en datos del
+ equipo de desarrollo en una metodología de desarrollo ágil como SCRUM supondría
+ un avance importante en este proceso, dado que para el sector de TI, uno
+ de los aspectos más dificiles de calcular es el esfuerzo que se requiere
+ para desarrollar un producto de software, teniendo en cuenta no solo el
+ número, sino tambien la habilidad de cada miembro del equipo de desarrollo,
+ sería un recurso valioso para realizar compromisos de entrega de productos
+ de alta calidad.
+\end_layout
+
+\begin_layout Standard
+Adicional a esto, el análisis de los datos registrados por los miembros
+ del equipo de desarrollo, son un insumo importantes para encontrar puntos
+ de mejora continua en el proceso de desarrollo de cada miembro del equipo,
+ buscando mejorar las competencias laborales de cada miembro del equipo
+ de desarrollo.
 \end_layout
 
 \end_body
