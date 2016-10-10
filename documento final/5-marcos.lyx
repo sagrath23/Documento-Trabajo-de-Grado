@@ -95,10 +95,17 @@ SCRUM
 \end_layout
 
 \begin_layout Standard
-SCRUM es presentado por sus creadores como un proceso de gestión y control
- que elimina la complejidad de las tareas de gestión de personal y recursos
- y se centra en la construcción de productos de software qye suplan las
- necesidades del negocio para el que se crearon.
+SCRUM es presentado por 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schwaber1997"
+
+\end_inset
+
+ como un proceso de gestión y control que elimina la complejidad de las
+ tareas de gestión de personal y recursos y se centra en la construcción
+ de productos de software qye suplan las necesidades del negocio para el
+ que se crearon.
  Por si solo, SCRUM es un marco de referencia para la colaboración efectiva
  del equipo de trabajo en proyectos complejos.
 \end_layout
@@ -108,10 +115,8 @@ SCRUM ofrece un marco de trabajo que caracteriza las actividades de gestión
  que se deben realizar para controlar el desarrollode las piezas de software
  necesarias para entregar un producto de software.
  Este marco se ilustra en la figura 5.1: 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
@@ -119,7 +124,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename graphics/scrum-framework.jpeg
-	scale 80
+	width 65page%
 
 \end_inset
 
@@ -150,54 +155,12 @@ Marco de trabajo de SCRUM
 \begin_layout Standard
 Scrum permite la creación de equipos auto organizados impulsando la co-localizac
 ión de todos los miembros del equipo, y la comunicación verbal entre todos
- los miembros y disciplinas involucrados en el proyecto.
-\end_layout
-
-\begin_layout Standard
-Un principio clave de Scrum es el reconocimiento de que durante un proyecto
- los clientes pueden cambiar de idea sobre lo que quieren y necesitan (a
- menudo llamado requirements churn), y que los desafíos impredecibles no
- pueden ser fácilmente enfrentados de una forma predictiva y planificada.
- Por lo tanto, Scrum adopta una aproximación pragmática, aceptando que el
- problema no puede ser completamente entendido o definido, y centrándose
- en maximizar la capacidad del equipo de entregar rápidamente y responder
- a requisitos emergentes.
-\end_layout
-
-\begin_layout Standard
+ los miembros y disciplinas involucrados en el proyecto, Adicional a esto,
+ SCRUM ofrece una extensión de su flujo de trabajo para sincronizar varios
+ equipos de trabajo, denominado marcode trabajo Nexus, que se ilustra en
+ la figura 5.2: 
 \begin_inset Float figure
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename graphics/Ficha_scrum.png
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Roles, Artefactos, Eventos y Reglas de SCRUM
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
@@ -205,7 +168,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename graphics/nexus_framework.jpeg
-	width 85page%
+	width 65page%
 
 \end_inset
 
@@ -217,6 +180,48 @@ status collapsed
 
 \begin_layout Plain Layout
 Framework Nexus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un principio clave de Scrum es el reconocimiento de que durante un proyecto
+ los clientes pueden cambiar de idea sobre lo que quieren y necesitan (a
+ menudo llamado requirements churn), y que los desafíos impredecibles no
+ pueden ser fácilmente enfrentados de una forma predictiva y planificada.
+ Por lo tanto, Scrum adopta una aproximación pragmática, aceptando que el
+ problema no puede ser completamente entendido o definido, y centrándose
+ en maximizar la capacidad del equipo de entregar rápidamente y responder
+ a requisitos emergentes.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/Ficha_scrum.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Roles, Artefactos, Eventos y Reglas de SCRUM
 \end_layout
 
 \end_inset
