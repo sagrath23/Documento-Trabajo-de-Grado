@@ -97,7 +97,7 @@ SCRUM
 \begin_layout Standard
 SCRUM es presentado por 
 \begin_inset CommandInset citation
-LatexCommand citet
+LatexCommand citep
 key "Schwaber1997"
 
 \end_inset
@@ -236,6 +236,67 @@ Roles, Artefactos, Eventos y Reglas de SCRUM
 
 \begin_layout Subsection
 PSP/TSP
+\end_layout
+
+\begin_layout Standard
+El proceso personal de software (PSP, Personal Software Process) es definido
+ por
+\begin_inset CommandInset citation
+LatexCommand citet
+key "HumphreyDisciplinefor1994"
+
+\end_inset
+
+, y descrito en detalle en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pomeroy2005personal,HumphreyPSPA2005"
+
+\end_inset
+
+, como un conjunto de procesos definidos que permiten a profesioanles en
+ ingeniería producir productos de alta calidad, en los lapsos pactados.
+ PSP está pensado para la apropiada gestión de tiempo y mejora de la productivid
+ad perosonal de los profesionales.
+ Está diseñado para ser empleado en organizaciones con modelos de procesos
+ CMMI (de acuerdo a lo ilustrado en la figura 5.4) o ISO 15504.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/PSP-TSP-CMMI.jpg
+	width 55page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Jerarquía entre PSP, TSP y CMMI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
