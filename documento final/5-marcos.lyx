@@ -234,6 +234,38 @@ Roles, Artefactos, Eventos y Reglas de SCRUM
 
 \end_layout
 
+\begin_layout Standard
+Como se explica en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schw01a"
+
+\end_inset
+
+ SCRUM está fundado sobre la base del control de procesos empírico, haciendo
+ énfasis en que el conocimiento sobre como se debe realizar el trabajo proviene
+ de la experiencia y que la toma de decisiones se realiza sobre lo que se
+ conoce.
+ SCRUM emplea un enfoque incremental e interactivo para optimizar la predictibil
+idad del proceso y manejar los riesgos.
+\end_layout
+
+\begin_layout Standard
+En SCRUM, la transparencia, la inspección y la adaptación son pilares vitales
+ durante el proceso, ya que permiten que exista claridad entre todos los
+ participantes dentro del proceso, dado que no hay información 
+\begin_inset Quotes eld
+\end_inset
+
+oculta
+\begin_inset Quotes erd
+\end_inset
+
+ para el equipo, se está revisando constantemente el avance del trabajo
+ realizado y si es el caso, se pueden hacer correcciones sobre la marcha
+ para evitar las desviaciones de la planeación original.
+\end_layout
+
 \begin_layout Subsection
 PSP/TSP
 \end_layout
@@ -266,7 +298,7 @@ ad perosonal de los profesionales.
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -283,6 +315,52 @@ status open
 
 \begin_layout Plain Layout
 Jerarquía entre PSP, TSP y CMMI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PSP pretende formar a los desarrolladores de software con métodos disciplinados
+ para mejorar su desarrollo personal de software.
+ Especificamente, PSP mejora las habilidades de estimación y planeación,
+ incrementa la calidad del producto final entregado y reduce la cantidad
+ de defectos inyectados durante el proceso de construcción del producto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/psp-21.gif
+	width 45page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Niveles de aplicación de PSP
 \end_layout
 
 \end_inset
