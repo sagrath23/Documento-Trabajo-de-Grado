@@ -153,7 +153,174 @@ Marco de trabajo de SCRUM
 \end_layout
 
 \begin_layout Standard
-Scrum permite la creación de equipos auto organizados impulsando la co-localizac
+En este modelo, descrito en detalle en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "TridibeshSBOK"
+
+\end_inset
+
+, las necesidades del cliente (representadas por los requerimientos funcionales,
+ historias de usuario o cualquier otro documento de especificación funcional)
+ son definidas por el 
+\emph on
+Product Owner
+\emph default
+, formando lo que se conoce como el 
+\emph on
+Product Backlog
+\emph default
+.
+ Con el 
+\emph on
+Product Backlog
+\emph default
+ definido, se realiza la planeación del 
+\emph on
+Sprint
+\emph default
+ (Un 
+\emph on
+Sprint
+\emph default
+ es el lapso de tiempo, regularmente de 2 a 4 semanas, en el que el equipo
+ de trabajo realiza sus labores), estimando con diversas técnicas el esfuerzo
+ requerido para implementar una necesidad del cliente.
+ Regularmente, en esta fase las necesidades se descomponen en tareas para
+ mejorar la trazabilidad del avance del proceso.
+ Las necesidades del usuario que se hayan seleccionado para ser implementadas
+ en el 
+\emph on
+Sprint
+\emph default
+ componen el 
+\emph on
+Sprint Backlog
+\emph default
+.
+ Durante el desarrollo del 
+\emph on
+Sprint
+\emph default
+, los miembros del equipo de desarrollo van construyendo las necesidades
+ del cliente del 
+\emph on
+Sprint Backlog
+\emph default
+, de acuerdo a las tareas definidas durante la planeación del 
+\emph on
+Sprint
+\emph default
+.
+ Diariamente, se realiza una breve reunión llamada 
+\emph on
+Daily Scrum
+\emph default
+, en la que se indaga brevemente en el avance de las tareas de construcción
+ definidas en el 
+\emph on
+Sprint Planning
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/Scrum.png
+	width 80page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Diagrama BPMN del flujo de actividades en SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una vez finalizado el 
+\emph on
+Sprint
+\emph default
+, se realiza un 
+\emph on
+Sprint Review
+\emph default
+, en el que se presenta brevemente a todo el equipo de desarrollo el 
+\emph on
+Increment
+\emph default
+ (pieza funcional resultante del trabajo realizado durante el 
+\emph on
+Sprint
+\emph default
+), que será integrado en la solución final que el cliente requiere.
+ Al finalizar el 
+\emph on
+Sprint Review
+\emph default
+, se realiza un 
+\emph on
+Sprint Retrospective
+\emph default
+, que es una reunión en la que se revisa la información recopilada del 
+\emph on
+Sprint
+\emph default
+ que acaba de finalizar, con el fin de buscar oportunidades de mejora en
+ el proceso, en la asignación de tareas, o para evitar inconvenientes en
+ el próximo 
+\emph on
+Sprint
+\emph default
+.
+ Una vez se finaliza el 
+\emph on
+Sprint Retrospective
+\emph default
+, se procede a realizar el 
+\emph on
+Sprint Planning
+\emph default
+ del siguiente 
+\emph on
+Sprint
+\emph default
+, y así sucesivamente hasta finalizar el 
+\emph on
+Product Backlog
+\emph default
+ y entregar un producto completo al cliente.
+\end_layout
+
+\begin_layout Standard
+SCRUM permite la creación de equipos auto organizados impulsando la co-localizac
 ión de todos los miembros del equipo, y la comunicación verbal entre todos
  los miembros y disciplinas involucrados en el proyecto, Adicional a esto,
  SCRUM ofrece una extensión de su flujo de trabajo para sincronizar varios
@@ -337,6 +504,12 @@ PSP pretende formar a los desarrolladores de software con métodos disciplinados
  Especificamente, PSP mejora las habilidades de estimación y planeación,
  incrementa la calidad del producto final entregado y reduce la cantidad
  de defectos inyectados durante el proceso de construcción del producto.
+ El proceso presenta inclusiones de actividades especificas, de forma incrementa
+l, dentro del flujo de trabajo de un desarrollador de software, buscando
+ familiarizar al profesional con la labor constante del registro de información
+ solicitada por PSP.
+ Estas actividades pueden consultarse en la fig.
+ 5.6.
 \end_layout
 
 \begin_layout Standard
@@ -378,8 +551,62 @@ Niveles de aplicación de PSP
 \end_layout
 
 \begin_layout Standard
-PSP ofrece al desarrollador de software una serie de guiones, que sirven
- para orientar la forma en la que debe realizar cada una de las activiadades
+Debido a que PSP presenta como aspecto fundamental el uso de datos históricos
+ de los miembros de un equipo de desarrollo para analizar y mejorar paulatinamen
+te el desempeño del profesional, se definen los siguientes artefactos: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Guiones
+\series default
+: Los guiones en PSP son guias que definen las actividades que se deben
+ realizar en cada una de las étapas del proceso de construcción de un proyecto,
+ componente o funcionalidad.
+ Estos documentos no involucran mayor detalle sobre las especificidades
+ de las labores del ingeniero de desarrollo, solo listan el orden y las
+ condiciones necesarias para la realización de una tarea, la forma en que
+ el ingeniero desarrolle esta tarea está sujeta a su criterio, experiencia
+ y conocimiento sobre el entorno en el que debe trabajar.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Métricas: 
+\series default
+Estos artefactos son los encargados de cuantificar el proceso y el producto
+ desarrollado usando el proceso definido.
+ Las métricas son los artefactos dentro del proceso definido en PSP que
+ suministran información sobre el comportamiento y desarrollo.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Estándares: 
+\series default
+Los estándares se introducen en el proceso para garantizar la precisión,
+ exactitud y consistencia de los datos recopilados durante la realización
+ de las actividades dentro de las étapas de trabajo de PSP.
+ Un ejemplo sería definir un estándar de codificación, que describe la forma
+ en que se deben escribir las diferentes instrucciones, funciones y comentarios
+ para garantizar la legibilidad del código fuente; la implementación de
+ un estándar de codificación facilita enormemente la automatización de tareas
+ como el conteo de líneas de código, dato que es sumamente importante para
+ afinar el modelo de estimación usado por PSP.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Formatos: ww
+\end_layout
+
+\begin_layout Standard
+ofrece al desarrollador de software una serie de guiones, que sirven para
+ orientar la forma en la que debe realizar cada una de las activiadades
  productivas de su posición, una serie de pasos que están orientados a producir
  componentes de software de alta calidad de manera consistente y replicable,
  como se ilustra en la siguiente figura: 
@@ -389,7 +616,7 @@ PSP ofrece al desarrollador de software una serie de guiones, que sirven
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
