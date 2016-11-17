@@ -601,7 +601,10 @@ Los estándares se introducen en el proceso para garantizar la precisión,
 \begin_layout Enumerate
 
 \series bold
-Formatos: ww
+Formatos: 
+\series default
+Los formatos son los artefactos del proceso que facilitan y ordenan el registro
+ de la información requerida por PSP.
 \end_layout
 
 \begin_layout Standard
