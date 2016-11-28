@@ -608,18 +608,16 @@ Los formatos son los artefactos del proceso que facilitan y ordenan el registro
 \end_layout
 
 \begin_layout Standard
-ofrece al desarrollador de software una serie de guiones, que sirven para
- orientar la forma en la que debe realizar cada una de las activiadades
- productivas de su posición, una serie de pasos que están orientados a producir
- componentes de software de alta calidad de manera consistente y replicable,
- como se ilustra en la siguiente figura: 
+En la figura 5.7, se ejemplifica el uso de los artefactos planteados por
+ PSP y las actividades sugeridas para realizar la construcción de un componente
+ de software:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -652,8 +650,152 @@ Etapas de trabajo de PSP
 
 \end_layout
 
+\begin_layout Standard
+PSP2 establece 8 actividades que se deben desarrollar secuencialmente cada
+ vez que se está construyendo (o modificando) un componente de software:
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Planeación (Planning): 
+\series default
+En esta actividad, el desarrollador de software deberá definir, a partir
+ de un diseño a alto nivel, las unidades necesarias (tipificandolas de acuerdo
+ a una clasificación dependiendo del lenguaje de programación o plataforma
+ de desarrollo que se esté usando), estimando su tamaño de acuerdo a una
+ tabla de valores relativos a partir de una medida 
+\begin_inset Quotes eld
+\end_inset
+
+sustituta
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Con esta definición, el desarrollador de software aplica el método PROBE
+ (
+\emph on
+Proxy Based Estimation
+\emph default
+, Estimación basada en sustitutos).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Diseño detallado (Design)
+\series default
+: En esta actividad, el desarrollador de software detalla el diseño de alto
+ nivel con el que realizó la planeación de su trabajo, especificando algoritmos,
+ tipos y estructuras de datos, caracteristicas propias del lenguaje de programac
+ión (composición y herencia de clases en lenguajes orientados a objetos,
+ flujos de eventos en lenguajes orientados a eventos, etc.) necesarias para
+ la implementación de las unidades especificadas en el diseño.
+ En PSP2.1 se ofrecen cuatro formatos para la realización del diseño detallado,
+ que ayudan a modelar el componente en construcción a nivel interno y externo,
+ así como de forma estática y dinámica.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Revisión del diseño (Design Review): 
+\series default
+Como su nombre lo indica, en esta actividad se realiza la revisión del diseño
+ que acabamos de realizar.
+ Esta revisión es guiada por una lista de chequeo en la que se establecen,
+ dependiendo del conocimiento que tiene el desarrollador de software de
+ los aspectos más recurrentes en los que su trabajo presenta fallas, los
+ puntos sobre los cuales debe enfocar su revisión.
+ esta lista debe actualizarse periodicamente, dependiendo de las nuevas
+ 
+\begin_inset Quotes eld
+\end_inset
+
+ocurrencias comúnes de errores
+\begin_inset Quotes erd
+\end_inset
+
+ del desarrollador de software.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Escritura del código (Code): 
+\series default
+En esta actividad, el desarrollador de software procede a plasmar el diseño
+ detallado en el lenguaje de programación.
+ Se recomienda que la implementación se realice sin realizar pruebas parciales
+ sobre unidades de código, dado que esta práctica va en detrimento de la
+ productividad del desarrollador de software.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Revisión del código (Code review): 
+\series default
+Al igual que en la revisión del diseño, en esta actividad se revisa el código
+ fuente del componente construido, usando una lista de chequeo en la que
+ se definen los errores que el desarrollador de software comete habitualmente
+ al escribir código.
+ Esta lista de chequeo también debe ser actualizada periodicamente, y debe
+ ser especifica para el lenguaje de programación en el que se haya escrito
+ el componente.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Compilación (Compile): 
+\series default
+Esta actividad consiste (dependiendo del lenguaje de programación usado)
+ en la labor de convertir el código fuente escrito en la actividad anterior,
+ a código máquina que pueda ser ejecutado por un computador.
+ La duración de esta actividad se medirá desde el primer intento de compillación
+ hasta que se genere el código máquina sin errores de compilación.
+ Para lenguajes interpretados, Esta actividad puede ser ignorada, dado que
+ no requieren ningún tipo de conversión a código máquina debido a su naturaleza.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Pruebas unitarias (Test): 
+\series default
+Al finalizar la construcción del componente de software, es necesario verificar
+ que cumpla con el propósito con el que se diseñó, por lo que es necesario
+ aplicar una serie de pruebas definidas para verificar que el componente
+ responda correctamente a todas las posibles situaciones que debe controlar.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Análisis del proceso aplicado (Postmortem): 
+\series default
+En esta última étapa del proceso de PSP, el desarrollador de software establece
+ y registra la información real del tamaño de las diferentes unidades de
+ software planteadas en el diseño de alto nivel, con el fin de aumentar
+ el número de puntos de comparación usados por el método PROBE para la estimació
+n del tamaño y el tiempo requerido para la construcción de las diferentes
+ unidades de software que requiere un componente.
+ Adicional a esto, en esa etapa el desarrollador de software debe definir
+ las propuestas de mejora para el proceso que acaba de aplicar, buscando
+ una mejora continua en su proceso.
+\end_layout
+
 \begin_layout Section
 Estado del arte
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
