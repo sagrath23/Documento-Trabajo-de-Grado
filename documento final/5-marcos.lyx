@@ -42,8 +42,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -76,10 +76,6 @@
 
 \begin_body
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Chapter
 Marco Teórico y Estado del arte
 \end_layout
@@ -91,49 +87,36 @@ En este capitulo se describe el marco teórico referente al entorno del problema
 \end_layout
 
 \begin_layout Section
-
-\lang spanish
 Marco teórico
 \end_layout
 
 \begin_layout Subsection
-
-\lang spanish
 SCRUM
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
-SCRUM es presentado por sus creadores 
+SCRUM es presentado por 
 \begin_inset CommandInset citation
-LatexCommand cite
+LatexCommand citep
 key "Schwaber1997"
 
 \end_inset
 
- como un proceso de gestión y control que elimina la complejidad y se centra
- en la construcción de productos de software que suplan las necesidades
- del negocio para el que fueron creados.
- Por si mismo, SCRUM es un marco de referencia para la colaboración efectiva
+ como un proceso de gestión y control que elimina la complejidad de las
+ tareas de gestión de personal y recursos y se centra en la construcción
+ de productos de software qye suplan las necesidades del negocio para el
+ que se crearon.
+ Por si solo, SCRUM es un marco de referencia para la colaboración efectiva
  del equipo de trabajo en proyectos complejos.
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
-
-\lang spanish
 SCRUM ofrece un marco de trabajo que caracteriza las actividades de gestión
- que se deben realizar para controlar el desarrollo de las piezas de software
- necesarias para entregar un producto de software, tal como se muestra en
- la figura 5.1.
-\end_layout
-
-\begin_layout Standard
+ que se deben realizar para controlar el desarrollode las piezas de software
+ necesarias para entregar un producto de software.
+ Este marco se ilustra en la figura 5.1: 
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
@@ -141,7 +124,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename graphics/scrum-framework.jpeg
-	width 85page%
+	width 65page%
 
 \end_inset
 
@@ -160,37 +143,99 @@ Marco de trabajo de SCRUM
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Scrum permite la creación de equipos auto organizados impulsando la co-localizac
-ión de todos los miembros del equipo, y la comunicación verbal entre todos
- los miembros y disciplinas involucrados en el proyecto.
-\end_layout
+En este modelo, descrito en detalle en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "TridibeshSBOK"
 
-\begin_layout Standard
-Un principio clave de Scrum es el reconocimiento de que durante un proyecto
- los clientes pueden cambiar de idea sobre lo que quieren y necesitan (a
- menudo llamado requirements churn), y que los desafíos impredecibles no
- pueden ser fácilmente enfrentados de una forma predictiva y planificada.
- Por lo tanto, Scrum adopta una aproximación pragmática, aceptando que el
- problema no puede ser completamente entendido o definido, y centrándose
- en maximizar la capacidad del equipo de entregar rápidamente y responder
- a requisitos emergentes.
+\end_inset
+
+, las necesidades del cliente (representadas por los requerimientos funcionales,
+ historias de usuario o cualquier otro documento de especificación funcional)
+ son definidas por el 
+\emph on
+Product Owner
+\emph default
+, formando lo que se conoce como el 
+\emph on
+Product Backlog
+\emph default
+.
+ Con el 
+\emph on
+Product Backlog
+\emph default
+ definido, se realiza la planeación del 
+\emph on
+Sprint
+\emph default
+ (Un 
+\emph on
+Sprint
+\emph default
+ es el lapso de tiempo, regularmente de 2 a 4 semanas, en el que el equipo
+ de trabajo realiza sus labores), estimando con diversas técnicas el esfuerzo
+ requerido para implementar una necesidad del cliente.
+ Regularmente, en esta fase las necesidades se descomponen en tareas para
+ mejorar la trazabilidad del avance del proceso.
+ Las necesidades del usuario que se hayan seleccionado para ser implementadas
+ en el 
+\emph on
+Sprint
+\emph default
+ componen el 
+\emph on
+Sprint Backlog
+\emph default
+.
+ Durante el desarrollo del 
+\emph on
+Sprint
+\emph default
+, los miembros del equipo de desarrollo van construyendo las necesidades
+ del cliente del 
+\emph on
+Sprint Backlog
+\emph default
+, de acuerdo a las tareas definidas durante la planeación del 
+\emph on
+Sprint
+\emph default
+.
+ Diariamente, se realiza una breve reunión llamada 
+\emph on
+Daily Scrum
+\emph default
+, en la que se indaga brevemente en el avance de las tareas de construcción
+ definidas en el 
+\emph on
+Sprint Planning
+\emph default
+.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename graphics/Ficha_scrum.png
+	filename graphics/Scrum.png
+	width 80page%
 
 \end_inset
 
@@ -201,7 +246,7 @@ status collapsed
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Roles, Artefactos, Eventos y Reglas de SCRUM
+Diagrama BPMN del flujo de actividades en SCRUM
 \end_layout
 
 \end_inset
@@ -219,7 +264,70 @@ Roles, Artefactos, Eventos y Reglas de SCRUM
 \end_layout
 
 \begin_layout Standard
+Una vez finalizado el 
+\emph on
+Sprint
+\emph default
+, se realiza un 
+\emph on
+Sprint Review
+\emph default
+, en el que se presenta brevemente a todo el equipo de desarrollo el 
+\emph on
+Increment
+\emph default
+ (pieza funcional resultante del trabajo realizado durante el 
+\emph on
+Sprint
+\emph default
+), que será integrado en la solución final que el cliente requiere.
+ Al finalizar el 
+\emph on
+Sprint Review
+\emph default
+, se realiza un 
+\emph on
+Sprint Retrospective
+\emph default
+, que es una reunión en la que se revisa la información recopilada del 
+\emph on
+Sprint
+\emph default
+ que acaba de finalizar, con el fin de buscar oportunidades de mejora en
+ el proceso, en la asignación de tareas, o para evitar inconvenientes en
+ el próximo 
+\emph on
+Sprint
+\emph default
+.
+ Una vez se finaliza el 
+\emph on
+Sprint Retrospective
+\emph default
+, se procede a realizar el 
+\emph on
+Sprint Planning
+\emph default
+ del siguiente 
+\emph on
+Sprint
+\emph default
+, y así sucesivamente hasta finalizar el 
+\emph on
+Product Backlog
+\emph default
+ y entregar un producto completo al cliente.
+\end_layout
+
+\begin_layout Standard
+SCRUM permite la creación de equipos auto organizados impulsando la co-localizac
+ión de todos los miembros del equipo, y la comunicación verbal entre todos
+ los miembros y disciplinas involucrados en el proyecto, Adicional a esto,
+ SCRUM ofrece una extensión de su flujo de trabajo para sincronizar varios
+ equipos de trabajo, denominado marcode trabajo Nexus, que se ilustra en
+ la figura 5.2: 
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status collapsed
@@ -227,7 +335,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename graphics/nexus_framework.jpeg
-	width 85page%
+	width 65page%
 
 \end_inset
 
@@ -251,10 +359,443 @@ Framework Nexus
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
+Un principio clave de Scrum es el reconocimiento de que durante un proyecto
+ los clientes pueden cambiar de idea sobre lo que quieren y necesitan (a
+ menudo llamado requirements churn), y que los desafíos impredecibles no
+ pueden ser fácilmente enfrentados de una forma predictiva y planificada.
+ Por lo tanto, Scrum adopta una aproximación pragmática, aceptando que el
+ problema no puede ser completamente entendido o definido, y centrándose
+ en maximizar la capacidad del equipo de entregar rápidamente y responder
+ a requisitos emergentes.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
 
-\lang spanish
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/Ficha_scrum.png
+	width 70page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Roles, Artefactos, Eventos y Reglas de SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se explica en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "Schw01a"
+
+\end_inset
+
+ SCRUM está fundado sobre la base del control de procesos empírico, haciendo
+ énfasis en que el conocimiento sobre como se debe realizar el trabajo proviene
+ de la experiencia y que la toma de decisiones se realiza sobre lo que se
+ conoce.
+ SCRUM emplea un enfoque incremental e interactivo para optimizar la predictibil
+idad del proceso y manejar los riesgos.
+\end_layout
+
+\begin_layout Standard
+En SCRUM, la transparencia, la inspección y la adaptación son pilares vitales
+ durante el proceso, ya que permiten que exista claridad entre todos los
+ participantes dentro del proceso, dado que no hay información 
+\begin_inset Quotes eld
+\end_inset
+
+oculta
+\begin_inset Quotes erd
+\end_inset
+
+ para el equipo, se está revisando constantemente el avance del trabajo
+ realizado y si es el caso, se pueden hacer correcciones sobre la marcha
+ para evitar las desviaciones de la planeación original.
+\end_layout
+
+\begin_layout Subsection
+PSP/TSP
+\end_layout
+
+\begin_layout Standard
+El proceso personal de software (PSP, Personal Software Process) es definido
+ por
+\begin_inset CommandInset citation
+LatexCommand citet
+key "HumphreyDisciplinefor1994"
+
+\end_inset
+
+, y descrito en detalle en 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pomeroy2005personal,HumphreyPSPA2005"
+
+\end_inset
+
+, como un conjunto de procesos definidos que permiten a profesioanles en
+ ingeniería producir productos de alta calidad, en los lapsos pactados.
+ PSP está pensado para la apropiada gestión de tiempo y mejora de la productivid
+ad perosonal de los profesionales.
+ Está diseñado para ser empleado en organizaciones con modelos de procesos
+ CMMI (de acuerdo a lo ilustrado en la figura 5.4) o ISO 15504.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/PSP-TSP-CMMI.jpg
+	width 55page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Jerarquía entre PSP, TSP y CMMI
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PSP pretende formar a los desarrolladores de software con métodos disciplinados
+ para mejorar su desarrollo personal de software.
+ Especificamente, PSP mejora las habilidades de estimación y planeación,
+ incrementa la calidad del producto final entregado y reduce la cantidad
+ de defectos inyectados durante el proceso de construcción del producto.
+ El proceso presenta inclusiones de actividades especificas, de forma incrementa
+l, dentro del flujo de trabajo de un desarrollador de software, buscando
+ familiarizar al profesional con la labor constante del registro de información
+ solicitada por PSP.
+ Estas actividades pueden consultarse en la fig.
+ 5.6.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/psp-21.gif
+	width 45page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Niveles de aplicación de PSP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Debido a que PSP presenta como aspecto fundamental el uso de datos históricos
+ de los miembros de un equipo de desarrollo para analizar y mejorar paulatinamen
+te el desempeño del profesional, se definen los siguientes artefactos: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Guiones
+\series default
+: Los guiones en PSP son guias que definen las actividades que se deben
+ realizar en cada una de las étapas del proceso de construcción de un proyecto,
+ componente o funcionalidad.
+ Estos documentos no involucran mayor detalle sobre las especificidades
+ de las labores del ingeniero de desarrollo, solo listan el orden y las
+ condiciones necesarias para la realización de una tarea, la forma en que
+ el ingeniero desarrolle esta tarea está sujeta a su criterio, experiencia
+ y conocimiento sobre el entorno en el que debe trabajar.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Métricas: 
+\series default
+Estos artefactos son los encargados de cuantificar el proceso y el producto
+ desarrollado usando el proceso definido.
+ Las métricas son los artefactos dentro del proceso definido en PSP que
+ suministran información sobre el comportamiento y desarrollo.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Estándares: 
+\series default
+Los estándares se introducen en el proceso para garantizar la precisión,
+ exactitud y consistencia de los datos recopilados durante la realización
+ de las actividades dentro de las étapas de trabajo de PSP.
+ Un ejemplo sería definir un estándar de codificación, que describe la forma
+ en que se deben escribir las diferentes instrucciones, funciones y comentarios
+ para garantizar la legibilidad del código fuente; la implementación de
+ un estándar de codificación facilita enormemente la automatización de tareas
+ como el conteo de líneas de código, dato que es sumamente importante para
+ afinar el modelo de estimación usado por PSP.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Formatos: 
+\series default
+Los formatos son los artefactos del proceso que facilitan y ordenan el registro
+ de la información requerida por PSP.
+\end_layout
+
+\begin_layout Standard
+En la figura 5.7, se ejemplifica el uso de los artefactos planteados por
+ PSP y las actividades sugeridas para realizar la construcción de un componente
+ de software:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/sshot-5.png
+	width 60page%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Etapas de trabajo de PSP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PSP2 establece 8 actividades que se deben desarrollar secuencialmente cada
+ vez que se está construyendo (o modificando) un componente de software:
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Planeación (Planning): 
+\series default
+En esta actividad, el desarrollador de software deberá definir, a partir
+ de un diseño a alto nivel, las unidades necesarias (tipificandolas de acuerdo
+ a una clasificación dependiendo del lenguaje de programación o plataforma
+ de desarrollo que se esté usando), estimando su tamaño de acuerdo a una
+ tabla de valores relativos a partir de una medida 
+\begin_inset Quotes eld
+\end_inset
+
+sustituta
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Con esta definición, el desarrollador de software aplica el método PROBE
+ (
+\emph on
+Proxy Based Estimation
+\emph default
+, Estimación basada en sustitutos).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Diseño detallado (Design)
+\series default
+: En esta actividad, el desarrollador de software detalla el diseño de alto
+ nivel con el que realizó la planeación de su trabajo, especificando algoritmos,
+ tipos y estructuras de datos, caracteristicas propias del lenguaje de programac
+ión (composición y herencia de clases en lenguajes orientados a objetos,
+ flujos de eventos en lenguajes orientados a eventos, etc.) necesarias para
+ la implementación de las unidades especificadas en el diseño.
+ En PSP2.1 se ofrecen cuatro formatos para la realización del diseño detallado,
+ que ayudan a modelar el componente en construcción a nivel interno y externo,
+ así como de forma estática y dinámica.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Revisión del diseño (Design Review): 
+\series default
+Como su nombre lo indica, en esta actividad se realiza la revisión del diseño
+ que acabamos de realizar.
+ Esta revisión es guiada por una lista de chequeo en la que se establecen,
+ dependiendo del conocimiento que tiene el desarrollador de software de
+ los aspectos más recurrentes en los que su trabajo presenta fallas, los
+ puntos sobre los cuales debe enfocar su revisión.
+ esta lista debe actualizarse periodicamente, dependiendo de las nuevas
+ 
+\begin_inset Quotes eld
+\end_inset
+
+ocurrencias comúnes de errores
+\begin_inset Quotes erd
+\end_inset
+
+ del desarrollador de software.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Escritura del código (Code): 
+\series default
+En esta actividad, el desarrollador de software procede a plasmar el diseño
+ detallado en el lenguaje de programación.
+ Se recomienda que la implementación se realice sin realizar pruebas parciales
+ sobre unidades de código, dado que esta práctica va en detrimento de la
+ productividad del desarrollador de software.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Revisión del código (Code review): 
+\series default
+Al igual que en la revisión del diseño, en esta actividad se revisa el código
+ fuente del componente construido, usando una lista de chequeo en la que
+ se definen los errores que el desarrollador de software comete habitualmente
+ al escribir código.
+ Esta lista de chequeo también debe ser actualizada periodicamente, y debe
+ ser especifica para el lenguaje de programación en el que se haya escrito
+ el componente.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Compilación (Compile): 
+\series default
+Esta actividad consiste (dependiendo del lenguaje de programación usado)
+ en la labor de convertir el código fuente escrito en la actividad anterior,
+ a código máquina que pueda ser ejecutado por un computador.
+ La duración de esta actividad se medirá desde el primer intento de compillación
+ hasta que se genere el código máquina sin errores de compilación.
+ Para lenguajes interpretados, Esta actividad puede ser ignorada, dado que
+ no requieren ningún tipo de conversión a código máquina debido a su naturaleza.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Pruebas unitarias (Test): 
+\series default
+Al finalizar la construcción del componente de software, es necesario verificar
+ que cumpla con el propósito con el que se diseñó, por lo que es necesario
+ aplicar una serie de pruebas definidas para verificar que el componente
+ responda correctamente a todas las posibles situaciones que debe controlar.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Análisis del proceso aplicado (Postmortem): 
+\series default
+En esta última étapa del proceso de PSP, el desarrollador de software establece
+ y registra la información real del tamaño de las diferentes unidades de
+ software planteadas en el diseño de alto nivel, con el fin de aumentar
+ el número de puntos de comparación usados por el método PROBE para la estimació
+n del tamaño y el tiempo requerido para la construcción de las diferentes
+ unidades de software que requiere un componente.
+ Adicional a esto, en esa etapa el desarrollador de software debe definir
+ las propuestas de mejora para el proceso que acaba de aplicar, buscando
+ una mejora continua en su proceso.
+\end_layout
+
+\begin_layout Section
 Estado del arte
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body

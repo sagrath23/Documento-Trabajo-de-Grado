@@ -81,14 +81,41 @@ Cronograma de actividades
 \end_layout
 
 \begin_layout Standard
-El objetivo de este capítulo es brindar el conocimiento necesario para entender
- el área en general donde se ubica este proyecto que es Programación por
- Restricciones y conceptos basicos de teoria musical y armonia musical.
- 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename graphics/cronograma.png
+	rotateAngle 90
+	rotateOrigin center
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Section
-Programación por Restricciones
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Cronograma de actividades
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

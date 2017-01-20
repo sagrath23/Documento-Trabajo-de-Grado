@@ -5,8 +5,12 @@
 \textclass book
 \begin_preamble
 \usepackage{lscape}
+\usepackage[natbibapa]{apacite}
 \end_preamble
 \use_default_options false
+\begin_modules
+natbibapa
+\end_modules
 \maintain_unincluded_children false
 \language spanish
 \language_package default
@@ -25,7 +29,7 @@
 \graphics default
 \default_output_format default
 \output_sync 0
-\bibtex_command default
+\bibtex_command bibtex
 \index_command default
 \paperfontsize default
 \spacing single
@@ -42,8 +46,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -185,8 +189,9 @@ filename "8-presupuesto.lyx"
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
+btprint "btPrintAll"
 bibfiles "referencias"
-options "apacite"
+options "bibtotoc,apacite"
 
 \end_inset
 

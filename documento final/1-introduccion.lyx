@@ -1,0 +1,117 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass book
+\use_default_options false
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics emtex
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Introducción
+\end_layout
+
+\begin_layout Standard
+Desde el nacimiento de la industria del software, y desde el surgimiento
+ de la ingeniería de software como tal, se ha planteado la necesidad de
+ definir con precisión el tamaño de las piezas de software que se deben
+ desarrollar para un sistema, y el tiempo que conlleva el desarrollo de
+ estos componentes para entregar un producto final al cliente.
+\end_layout
+
+\begin_layout Standard
+Sin embargo, al ser el desarrollo de software una labor meramente artesanal,
+ guiada por la lógica y el razonamiento de cada individuo al momento de
+ plantear una solución, estructurarla y plasmarla en una pieza de código
+ en un lenguaje de programación en particular, se hace notoria la dificultad
+ que implica definir estos valores con un margen de error aceptable.
+\end_layout
+
+\begin_layout Standard
+En la actualidad, diferentes metodologías de desarrollo de software y gestión
+ de proyectos de software ofrecen diversos mecanismos y modelos para estimar
+ esfuerzos a la hora de construir un producto de software, pero estos métodos
+ no contemplan uno de los factores más importantes al momento de construir
+ un producto de software: El desempeño y proficiencia de cada miembro del
+ equipo de desarrollo en la plataforma tecnológica seleccionada para la
+ construcción, junto con su experiencia y habilidades especificas para resolver
+ los problemas a los que se enfrenta.
+\end_layout
+
+\begin_layout Standard
+Por este motivo, la tarea de involucrar las caracteristicas y el desempeño
+ de cada miembro del equipo, en un marco formal integrado al proceso de
+ desarrollo, resulta altamente atractivo por los beneficios implicitos que
+ esto acarrea: Entregar productos de software de alta calidad, en los tiempos
+ pactados contractualmente, y aprovechando al máximo las capacidades de
+ los miembros del equipo de desarrollo de software.
+\end_layout
+
+\end_body
+\end_document
